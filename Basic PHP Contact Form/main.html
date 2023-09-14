@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Set the character encoding and viewport for responsive design -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Set the page title and link to an external CSS stylesheet -->
+	<title>Contact Form | John Raymond S. Regala</title>
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Include external icon libraries for icons -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+	<!-- Create a wrapper div for the page content -->
+	<div class="wrapper"> 
+		<header>Send us a Message</header>
+
+		<!-- Create a form for user input with various fields -->
+		<form action="#">
+			<div class="dbl-field">
+				<!-- Input field for the user's name -->
+				<div class="field">
+					<input type="text" name="yourName" placeholder="Enter name">
+					<i class="fas fa-user-circle"></i> <!-- Use Font Awesome icons for decoration -->
+				</div>
+				<!-- Input field for the user's email -->
+				<div class="field">
+					<input type="text" name="email" placeholder="Enter email">
+					<i class="fas fa-envelope"></i>
+				</div>
+			</div>
+			<div class="dbl-field">
+				<!-- Input field for the user's phone number -->
+				<div class="field">
+					<input type="text" name="phoneNumber" placeholder="Enter phone number">
+					<i class="fas fa-mobile"></i>
+				</div>
+				<!-- Input field for the user's social media link -->
+				<div class="field">
+					<input type="text" name="socialMedia" placeholder="Enter social media link">
+					<i class="fas fa-globe"></i>
+				</div>
+			</div>
+			<!-- Textarea for the user's message -->
+			<div class="message">
+				<textarea placeholder="Write your message"></textarea>
+				<i class="fa fa-envelope-open"></i>
+			</div>
+			<div class="button-area">
+				<!-- Submit button for sending the message -->
+				<button type="submit">Send a Message</button>
+				<span> Sending your message...</span>
+			</div>
+		</form>
+	</div>
+
+	<!-- Include an external JavaScript file -->
+	<script src="script.js"></script>
+</body>
+</html>
